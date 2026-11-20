@@ -10,4 +10,9 @@ It allows to retrieve the source of most of the known GNUstep Applications like 
 
 ## List of available applications
 
-**To be completed**...
+- AddressManager
+- Bean
+- GNUMail
+- HelpViewer
+- InnerSpace
+- SimpleAgenda
