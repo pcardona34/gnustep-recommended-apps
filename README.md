@@ -12,7 +12,11 @@ It allows to retrieve the source of most of the known GNUstep Applications like 
 
 - AddressManager
 - Bean
+- Cynthiune
 - GNUMail
+- Grr
+- GSPdf
 - HelpViewer
 - InnerSpace
 - SimpleAgenda
+- StepDown

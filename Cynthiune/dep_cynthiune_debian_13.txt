@@ -1,0 +1,35 @@
+# mp3 support:
+libid3tag0
+libid3tag0-dev
+libmad0
+libmad0-dev
+# ogg support:
+libvorbis0a
+libvorbis-dev
+libogg0
+libogg-dev
+# musepack support:
+# libmpcdec 1.3, newer API, chosen as the default
+libmpcdec6
+libmpcdec-dev
+# mod, xm and all the possible tracker formats out there:
+libmodplug1
+libmodplug-dev
+# wav, au and many uncompressed sound formats:
+libaudiofile1
+libaudiofile-dev
+# flac support:
+libflac14
+libflac-dev
+# wma and asf support:
+libavifile-0.7-dev
+libavifile-0.7c2
+# esound output support: libesd is deprecated. We try libao as an alternative
+libao4
+libao-dev
+# taglib support (required for mp3 and musepack):
+libtag2
+libtag-dev
+#MusicBrainz support (required):
+libmusicbrainz5-2
+libmusicbrainz5-dev
