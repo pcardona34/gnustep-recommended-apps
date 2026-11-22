@@ -20,3 +20,13 @@ It allows to retrieve the source of most of the known GNUstep Applications like 
 - InnerSpace
 - SimpleAgenda
 - StepDown
+
+## PURGATORY
+
+### AClock (from nu-gap)
+
+- See [issue](https://github.com/nu-gap/apps-aclock/issues/1).
+
+### AudioMixer (from nu-gap)
+
+- See [issue](https://github.com/nu-gap/apps-audiomixer/issues/1).
