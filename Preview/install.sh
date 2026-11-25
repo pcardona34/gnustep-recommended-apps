@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ####################################################
-### gnustep-recommended module
+### AGNoStep gnustep-recommended
 ### (c) 2026 Patrick Cardona
 ###
 ### Thanks for the GNUstep Developers Community
@@ -10,7 +10,7 @@
 ####################################################
 
 ################################
-### Install AudioMixer
+### Install Preview
 ################################
 
 ################################
@@ -62,6 +62,12 @@ subtitulo
 
 pushd . >/dev/null
 cd build/${REPO} || exit 1
+
+printf "Applying a patch...\n"
+set_quilt || exit 1
+quilt push -a
+ok "Done"
+
 _build || exit 1
 popd >/dev/null
 stop

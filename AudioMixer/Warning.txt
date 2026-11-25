@@ -1,0 +1,2 @@
+Do NOT install on a RPI machine.
+Look at agnostep-applications instead.

@@ -10,7 +10,9 @@ It allows to retrieve the source of most of the known GNUstep Applications like 
 
 ## List of available applications
 
+- AClock
 - AddressManager
+- AudioMixer
 - Bean
 - Cynthiune
 - GNUMail
@@ -18,15 +20,9 @@ It allows to retrieve the source of most of the known GNUstep Applications like 
 - GSPdf
 - HelpViewer
 - InnerSpace
+- Preview
 - SimpleAgenda
 - StepDown
 
-## PURGATORY
-
-### AClock (from nu-gap)
-
-- See [issue](https://github.com/nu-gap/apps-aclock/issues/1).
-
-### AudioMixer (from nu-gap)
-
-- See [issue](https://github.com/nu-gap/apps-audiomixer/issues/1).
+> [!NOTE]
+> Do NOT install AudioMixer on a RPI machine. You should use instead `AudioMixer` provided by [agnostep-applications](../../../agnostep-applications).
